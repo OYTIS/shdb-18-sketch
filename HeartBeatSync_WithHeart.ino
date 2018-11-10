@@ -64,6 +64,8 @@ void setup() {
   lc.setIntensity(1, 1);
   lc.clearDisplay(0); // Clear Displays
   lc.clearDisplay(1);
+
+  Serial.begin(115200);
 }
 
 //  Take values in Arrays and Display them
